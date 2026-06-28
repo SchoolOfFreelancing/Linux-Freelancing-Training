@@ -1,13 +1,50 @@
+# School of Freelancing - Robots.txt
+# Search Engine Crawling Directives
+
+# Default rules for all search engines
 User-agent: *
 Allow: /
+Allow: *.css$
+Allow: *.js$
+Allow: *.jpg$
+Allow: *.jpeg$
+Allow: *.png$
+Allow: *.gif$
+Allow: *.svg$
+Allow: *.webp$
 
-# Block admin or private areas (add as needed)
+# Block private/admin areas
 Disallow: /admin/
 Disallow: /private/
 Disallow: /cgi-bin/
+Disallow: /.git/
+Disallow: /.gitignore
 
-# Sitemap location
+# Optimize crawling parameters
+Crawl-delay: 5
+Request-rate: 10/1s
+
+# Google specific
+User-agent: Googlebot
+Crawl-delay: 1
+
+# Bing specific
+User-agent: Bingbot
+Crawl-delay: 2
+
+# Yandex specific
+User-agent: YandexBot
+Crawl-delay: 2
+
+# Sitemap location for all search engines
 Sitemap: https://www.schooloffreelancing.com/sitemap.xml
+Sitemap: https://www.schooloffreelancing.com/sitemap-pages.xml
 
-# Crawl-delay for courtesy
-Crawl-delay: 10
+# Additional crawling instructions
+# Cache static assets for better performance
+# Cache-Control: max-age=2592000
+
+# Clean URL parameters (comment out if not applicable)
+# Clean-param: utm_source remove
+# Clean-param: utm_medium remove
+# Clean-param: utm_campaign remove
