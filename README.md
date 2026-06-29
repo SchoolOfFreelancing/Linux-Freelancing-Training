@@ -1,4 +1,4 @@
-(https://dl.circleci.com/status-badge/redirect/gh/SchoolOfFreelancing/Freelancing-On-Linux/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/SchoolOfFreelancing/Freelancing-On-Linux/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/SchoolOfFreelancing/Freelancing-On-Linux/tree/main)
 
 ## Linux System Administration – Hands-On Training for Freelancers
 
