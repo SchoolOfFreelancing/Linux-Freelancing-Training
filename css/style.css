@@ -166,8 +166,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Terminal prompt decorations */
 .section-header::before {
-  content: '> ';
-  color: var(--green-bright);
+  content: "";
 }
 
 /* ---------- Navigation ---------- */
@@ -739,7 +738,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .course-info span::before { content: '⏱ '; }
-.course-info span:last-child::before { content: '👤 '; }
+
 
 /* ---------- Testimonials ---------- */
 .testimonials-grid {

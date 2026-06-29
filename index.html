@@ -272,8 +272,7 @@
 <nav class="navbar" role="navigation" aria-label="Main navigation">
   <div class="nav-container">
     <a href="index.html" class="nav-logo" aria-label="School of Freelancing Home - #1 Linux Training Platform">
-      <div class="logo-icon" aria-hidden="true">$_</div>
-      <span>School of Freelancing</span>
+      <div class="logo-icon" aria-hidden="false">:~#</div><span>SCHOOL OF FREELANCING<span class="cursor" aria-hidden="true"></span></span>
     </a>
     <ul class="nav-links" id="nav-links" role="list">
        <li><a href="index.html" class="active" target="_self">Home</a></li>
@@ -295,39 +294,15 @@
     <div class="hero-content">
      
       <h1 class="hero-title" data-reveal data-delay="100">
-        AI Powered Linux Training & Support Worldwide
+        AI-Powered Linux Training & Support Worldwide
       </h1>
-      <p class="hero-subtitle" data-reveal data-delay="200">
-      School Of Freelancing trains newbie freelancers in high-income Linux skills and offers expert Linux system administration support for clients.
-      </p>
+      <p class="hero-subtitle" data-reveal data-delay="200">School Of Freelancing provides Linux skill-based freelancing training for beginners and professional freelancing support for clients.</p>
       </p>
       <div class="hero-actions" data-reveal data-delay="300">
-       <a href="training.html" target="_self" class="btn btn-primary btn-lg">
-          Start Training
-        </a>
-        <a href="support.html" target="_self" class="btn btn-outline btn-lg">
-          Get Support
-        </a>
+       <a href="training.html" target="_self" class="btn btn-primary btn-lg">Start Training</a>
+        <a href="support.html" target="_self" class="btn btn-outline btn-lg">Get Support</a>
       </div>
-      <div class="hero-stats" data-reveal data-delay="400">
-        <div class="stat-item">
-          <span class="stat-number" data-count="819" data-suffix="+">0</span>
-          <span class="stat-label">Students</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number" data-count="21" data-suffix="+">0</span>
-          <span class="stat-label">Training</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number" data-count="98" data-suffix="%">0</span>
-          <span class="stat-label">Success Rate</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number" data-count="4.9" data-suffix="★">0</span>
-          <span class="stat-label">Rating</span>
-        </div>
-      </div>
-    </div>
+          </div>
 
     <!-- Terminal Window -->
     <div class="terminal-window animate-float" data-reveal data-delay="200">
@@ -335,34 +310,36 @@
         <div class="terminal-dot dot-red"></div>
         <div class="terminal-dot dot-yellow"></div>
         <div class="terminal-dot dot-green"></div>
-        <span class="terminal-title">Cohort@SOF:~#</span>
+        <span class="terminal-title">root@sof:~#</span>
       </div>
+      
       <div class="terminal-body">
         <div class="terminal-line">
-          <span class="prompt">$</span>
-          <span class="cmd" data-typewriter="enroll --course=freelancing-masterclass" data-speed="50"></span>
+          <span class="prompt">root@sof:~#</span>
+          <span class="cmd" data-typewriter="enroll --training=Linux Freelancing Training" data-speed="50"></span>
         </div>
         <div class="terminal-line">
-          <span class="output success">✔ Course enrolled successfully</span>
+         <span class="prompt">root@sof:~#</span>
+          <span class="cmd" data-typewriter="Training enrolled successfully" data-speed="50" data-delay="1750"></span>
+                  </div>
+        <div class="terminal-line">
+        <span class="prompt">root@sof:~#</span>
+                  <span class="cmd" data-typewriter="Loading training modules... 90 found" data-speed="50" data-delay="2850"></span>
+        </div>
+              <div class="terminal-line">
+          <span class="prompt">root@sof:~#</span>
+          <span class="cmd" data-typewriter="complete --module=89 'search Linux projects'" data-speed="55" data-delay="4500"></span>
         </div>
         <div class="terminal-line">
-          <span class="output">→ Loading modules... 48 found</span>
+          <span class="output highlight">💰 First client landed: $750</span>
         </div>
         <div class="terminal-line">
-          <span class="output">→ Setting up workspace...</span>
+          <span class="prompt">root@sof:~#</span>
+         <span class="cmd" data-typewriter="Income unlocked. search more Linux projects" data-speed="55" data-delay="6000"></span>
+          
         </div>
         <div class="terminal-line">
-          <span class="prompt">$</span>
-          <span class="cmd" data-typewriter="run --module=1 'Getting Clients'" data-speed="55" data-delay="2000"></span>
-        </div>
-        <div class="terminal-line">
-          <span class="output highlight">💰 First client landed: $450</span>
-        </div>
-        <div class="terminal-line">
-          <span class="output success">✔ Income unlocked. Keep going!</span>
-        </div>
-        <div class="terminal-line">
-          <span class="prompt">$</span>
+          <span class="prompt">root@sof:~#</span>
           <span class="cursor" aria-hidden="true"></span>
         </div>
       </div>
@@ -370,15 +347,12 @@
   </div>
 </section>
 
-<!-- ===== FEATURED COURSES ===== -->
-<section class="section" style="background:var(--bg-secondary);" id="courses" aria-labelledby="courses-heading">
+<!-- ===== FEATURED TRAINING ===== -->
+<section class="section no-terminal-prompt">
   <div class="container">
-    <div class="section-header" data-reveal>
-        <div class="hero-badge" data-reveal>
-        <span>Now Enrolling — Cohort 7 Open</span>
-      </div>
-      <h2 class="section-title" id="courses-heading"><span>Serving Training Globally</span></h2>
-      <p class="section-subtitle">On-demand hands-on training built on cutting-edge technology & trends</p>
+    <div class="section-header">
+      <h2 class="section-title" id="courses-heading"><span>Providing Training Globally</span></h2>
+      <p class="section-subtitle"><span>On-demand Linux hands-on training based on cutting-edge tech & trends</span></p>
     </div>
     <div class="courses-grid">
 
@@ -386,18 +360,24 @@
       <div class="course-banner" style="background:linear-gradient(135deg,#0d2b0d,#1a4a1a);"><img width="40%" height="40%" src="./images/linux.png" alt="Freelancing On Linux Training - Become a Linux Systems Administrator"></div>
         <div class="course-body">
           <div class="course-tags">
-            <span class="tag tag-green">Bestseller</span>
-            <span class="tag tag-amber">Advance</span>
+            <a href="https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git/" target="_blank"><span class="tag tag-green">Training Modules</span></a>
+            <span class="tag tag-cyan">Beginner Level</span>
           </div>
-          <h3 class="course-title">Linux Freelancing Training</h3>
-          <p class="course-desc">Become a top-earning freelance Linux Systems Administrator and land clients directly or through leading global marketplaces.</p>
+   <h3 class="course-title"><a href="https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git/" target="_blank"><span class="tag tag-green">Linux Freelancing Training</a></h3>
+          <p class="course-desc">Launch your Linux freelancing career and win high-paying clients through direct outreach and global marketplaces.</p>
+            <ul style="font-size:0.8rem; color:var(--text-muted); margin-bottom:16px; padding-left:0;">
+            <li style="margin-bottom:4px;">✔ Instructor-Led Training</li>
+            <li style="margin-bottom:4px;">✔ 90 Hands-on Training Modules</li>
+            <li style="margin-bottom:4px;">✔ Guaranteed Minimum Income (GMI)</li>
+            <li>✔ Credential Verification Support</li>
+          </ul>
                     <div class="course-meta">
             <div>
-              <span class="course-price">$500</span>
+              <span class="course-price">$600</span>
             </div>
             <div class="course-info">
-              <span>180 hrs</span>
-              <span>200 students</span>
+              <span>180 Hours Total Duration (6 Months)</span>
+             
             </div>
           </div>
           <a href="enrollment.html" target="_self" class="btn btn-primary" style="width:100%; justify-content:center;">Enroll Now</a>
@@ -408,18 +388,23 @@
         <div class="course-banner" style="background:linear-gradient(135deg,#0d1f2b,#1a3a4a);"><img width="40%" height="40%" src="./images/hermesagent.png" alt="Hermes Agent Training - AI Agent Development"></div>
         <div class="course-body">
           <div class="course-tags">
-            <span class="tag tag-cyan">Hot</span>
-            <span class="tag tag-amber">Intermediate</span>
+            <a href="https://github.com/SchoolOfFreelancing/Hermes-Agent-Training.git/" target="_blank"><span class="tag tag-green">Training Modules</span></a>
+            <span class="tag tag-cyan">Advanced Level</span>
           </div>
-          <h3 class="course-title">Hermes Agent Training</h3>
-          <p class="course-desc">Self-hosted AI agent by Nous Research with persistent memory, self-improving skills, multi-platform messaging.</p>
+          <h3 class="course-title"><a href="https://github.com/SchoolOfFreelancing/Hermes-Agent-Training.git/" target="_blank"><span class="tag tag-green">Hermes Agent Training</a></h3>
+          <p class="course-desc">Learn Hermes Agents and offer AI automation services to clients through direct outreach and global marketplaces.</p>
+            <ul style="font-size:0.8rem; color:var(--text-muted); margin-bottom:16px; padding-left:0;">
+            <li style="margin-bottom:4px;">✔ Instructor-Led Training</li>
+            <li style="margin-bottom:4px;">✔ 15 Hands-on Training Modules</li>
+            <li style="margin-bottom:4px;">✔ Guaranteed Minimum Income (GMI)</li>
+            <li>✔ Credential Verification Support</li>
+          </ul>
           <div class="course-meta">
             <div>
-              <span class="course-price">$400</span>
+              <span class="course-price">$200</span>
               </div>
             <div class="course-info">
-              <span>24 hrs</span>
-              <span>19 students</span>
+                  <span>30 Hours Total Duration (6 Days)</span>
             </div>
           </div>
           <a href="enrollment.html" target="_self" class="btn btn-primary" style="width:100%; justify-content:center;">Enroll Now</a>
@@ -430,18 +415,23 @@
         <div class="course-banner" style="background:linear-gradient(135deg,#1f0d2b,#3a1a4a);"><img width="40%" height="40%" src="./images/odysseus.png" alt="Odysseus self-hosted AI workspace - AI Workspace Setup"></div>
         <div class="course-body">
           <div class="course-tags">
-            <span class="tag tag-green">Popular</span>
-            <span class="tag tag-amber">All Levels</span>
+            <a href="https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git/" target="_blank"><span class="tag tag-green">Training Modules</span></a>
+            <span class="tag tag-cyan">Advanced Level</span>
           </div>
-          <h3 class="course-title">AI Workspace Training</h3>
-          <p class="course-desc">Odysseus Self-hosted AI Workspace Training for Your own AI workspace, running on your hardware.</p>
+          <h3 class="course-title"><a href="https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git/" target="_blank"><span class="tag tag-green">Odysseus AI Workspace Training</a></h3>
+          <p class="course-desc">Learn to build your own self-hosted Odysseus AI workspace and start offering AI automation services as a freelancer.</p>
+           <ul style="font-size:0.8rem; color:var(--text-muted); margin-bottom:16px; padding-left:0;">
+            <li style="margin-bottom:4px;">✔ Instructor-Led Training</li>
+            <li style="margin-bottom:4px;">✔ 10 Hands-on Training Modules</li>
+            <li style="margin-bottom:4px;">✔ Client Acquisition Service Development</li>
+            <li>✔ Credential Verification Support</li>
+          </ul>
           <div class="course-meta">
             <div>
-              <span class="course-price">$300</span>
+              <span class="course-price">$200</span>
             </div>
             <div class="course-info">
-              <span>28 hrs</span>
-              <span>350 students</span>
+          <span>20 Hours Total Duration (5 Days)</span>
             </div>
           </div>
           <a href="enrollment.html" target="_self" class="btn btn-primary" style="width:100%; justify-content:center;">Enroll Now</a>
@@ -456,14 +446,12 @@
 </section>
 
 <!-- ===== FEATURED Support ===== -->
-<section class="section" style="background:var(--bg-secondary);" id="services" aria-labelledby="services-heading">
+<section>
   <div class="container">
     <div class="section-header" data-reveal>
-        <div class="hero-badge" data-reveal>
-        <span>CUSTOMER Support LIVE CHAT</span>
-      </div>
-      <h2 class="section-title" id="services-heading"><span>EXPERT-LED Support</span></h2>
-      <p class="section-subtitle">Get Support to deploy solutions quickly and keep downtime minimal</p>
+      
+      <h2 class="section-title" id="services-heading"><span>GLOBAL CLIENT SUPPORT</span></h2>
+      <p class="section-subtitle">Deploy faster with expert support and keep downtime to a minimum.</p>
     </div>
     <div class="courses-grid">
 
@@ -472,10 +460,16 @@
         <div class="course-body">
           <div class="course-tags">
             <span class="tag tag-green">Bestseller</span>
-            <span class="tag tag-amber">Advance</span>
+            <span class="tag tag-cyan">SMS</span>
           </div>
           <h3 class="course-title">Telnyx A2P SMS Support</h3>
-          <p class="course-desc">Telnyx Support HIPAA-compliant SMS, including A2P 10DLC, but requires the use of their HIPAA-eligible infrastructure.</p>
+          <p class="course-desc">Telnyx Messaging API bulk SMS development support, including A2P 10DLC and two-way messaging capabilities.</p>
+           <ul style="font-size:0.8rem; color:var(--text-muted); margin-bottom:16px; padding-left:0;">
+                <li style="margin-bottom:4px;">✔ Fast Issue Resolution</li>
+            <li style="margin-bottom:4px;">✔ Secure Remote Assistance</li>
+            <li style="margin-bottom:4px;">✔ Cost-Effective Support</li>
+            <li>✔ 24-hour post-installation support</li>
+          </ul>
                     <div class="course-meta">
             <div>
               <span class="course-price">$800</span>
@@ -498,6 +492,12 @@
           </div>
           <h3 class="course-title">Twilio A2P SMS Support</h3>
           <p class="course-desc">Twilio A2P SMS API Service for SMS compliance and API registration to ensure text messages sent to inbox for legit purpose</p>
+           <ul style="font-size:0.8rem; color:var(--text-muted); margin-bottom:16px; padding-left:0;">
+                <li style="margin-bottom:4px;">✔ Fast Issue Resolution</li>
+            <li style="margin-bottom:4px;">✔ Secure Remote Assistance</li>
+            <li style="margin-bottom:4px;">✔ Cost-Effective Support</li>
+            <li>✔ 24-hour post-installation support</li>
+          </ul>
           <div class="course-meta">
             <div>
               <span class="course-price">$900
@@ -520,6 +520,12 @@
           </div>
           <h3 class="course-title">High-Frequency Trading Bots</h3>
           <p class="course-desc">High-frequency Cryptocurrency automated trading bots deploy Support using Hummingbot Ecosystem and exchange API</p>
+           <ul style="font-size:0.8rem; color:var(--text-muted); margin-bottom:16px; padding-left:0;">
+                <li style="margin-bottom:4px;">✔ Fast Issue Resolution</li>
+            <li style="margin-bottom:4px;">✔ Secure Remote Assistance</li>
+            <li style="margin-bottom:4px;">✔ Cost-Effective Support</li>
+            <li>✔ 24-hour post-installation support</li>
+          </ul>
           <div class="course-meta">
             <div>
               <span class="course-price">$1500</span>
