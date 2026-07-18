@@ -279,7 +279,7 @@ Guaranteed income depends on two conditions: full, regular attendance throughout
 An Ubuntu Desktop (24.04/26.04 LTS) machine with a 64-bit dual-core 4 GHz processor, minimum 8 GB RAM (16 GB recommended), and at least 200 GB free disk space, plus a reliable fiber-optic internet connection.
 
 **How do I enroll?**
-Contact via [WhatsApp](https://wa.me/8801748973769) or [Telegram](https://t.me/SchoolOfFreelancingTraining), or [join directly](https://forms.gle/hkyz9uR2Z8WVPUPH7).
+Contact via [WhatsApp](https://wa.me/8801748973769) or [Telegram](https://t.me/SchoolOfFreelancingTraining), or [join directly](https://www.schooloffreelancing.com/register/).
 
 **[↑ Back to top](#-table-of-contents)**
 
